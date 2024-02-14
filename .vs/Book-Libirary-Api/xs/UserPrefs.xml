@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{78B911EA-4E41-402B-8309-34E296EEF11B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Book-Libirary-Api" expanded="True">
+            <Node name="Book-Libirary-Api" expanded="True">
+              <Node name="AutoMapper" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="SliderController.cs" selected="True" />
+              </Node>
+              <Node name="DTO" expanded="True">
+                <Node name="SliderDto" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+              <Node name="Validator" expanded="True">
+                <Node name="SliderValidator" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
