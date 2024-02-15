@@ -9,7 +9,7 @@ namespace Book_Libirary_Api.AutoMapper
 	{
 		public SliderProfile()
 		{
-			CreateMap<Slider, CreateSliderDto>().ReverseMap();
+			CreateMap<Slider, CreateSliderDto>().ReverseMap() ;
 			CreateMap<Slider, UpdateSliderDto>().ReverseMap();
 			CreateMap<Slider, GetSliderDto>().ReverseMap();
         }

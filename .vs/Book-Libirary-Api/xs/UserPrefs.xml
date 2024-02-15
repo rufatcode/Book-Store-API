@@ -3,16 +3,20 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Book-Libirary-Api" expanded="True">
-            <Node name="Book-Libirary-Api" expanded="True">
+          <Node name="Book-Libirary-Api">
+            <Node name="Book-Libirary-Api">
               <Node name="AutoMapper" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="SliderController.cs" selected="True" />
-              </Node>
+              <Node name="Configuration" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
               <Node name="DTO" expanded="True">
                 <Node name="SliderDto" expanded="True" />
               </Node>
               <Node name="Entities" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="PhotoAccessor.cs" selected="True" />
+              </Node>
               <Node name="Validator" expanded="True">
                 <Node name="SliderValidator" expanded="True" />
               </Node>
@@ -22,11 +26,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace Book_Libirary_Api.DTO.SliderDto
 {
 	public class CreateSliderDto
