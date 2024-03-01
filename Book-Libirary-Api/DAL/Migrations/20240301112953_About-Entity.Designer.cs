@@ -3,6 +3,7 @@ using System;
 using Book_Libirary_Api.DTO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Book_Libirary_Api.DAL.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20240301112953_About-Entity")]
+    partial class AboutEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,7 +45,7 @@ namespace Book_Libirary_Api.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
-                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 32, 43, 988, DateTimeKind.Utc).AddTicks(3610));
+                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 29, 53, 525, DateTimeKind.Utc).AddTicks(3920));
 
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("timestamp with time zone");
@@ -59,20 +61,12 @@ namespace Book_Libirary_Api.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("MainPublicId")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("character varying(300)");
 
                     b.Property<string>("SubImageUrl")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SubPublicId")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -169,7 +163,7 @@ namespace Book_Libirary_Api.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
-                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 32, 43, 988, DateTimeKind.Utc).AddTicks(4030));
+                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 29, 53, 525, DateTimeKind.Utc).AddTicks(4300));
 
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("timestamp with time zone");
@@ -234,7 +228,7 @@ namespace Book_Libirary_Api.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
-                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 32, 43, 988, DateTimeKind.Utc).AddTicks(4280));
+                        .HasDefaultValue(new DateTime(2024, 3, 1, 15, 29, 53, 525, DateTimeKind.Utc).AddTicks(4560));
 
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("timestamp with time zone");

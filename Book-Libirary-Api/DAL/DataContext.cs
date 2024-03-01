@@ -8,7 +8,9 @@ namespace Book_Libirary_Api.DTO
 	public class DataContext:IdentityDbContext<AppUser>
 	{
         public DbSet<Slider> Sliders { get; set; }
-		public DataContext(DbContextOptions options):base(options)
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<About> Abouts { get; set; }
+        public DataContext(DbContextOptions options):base(options)
 		{
 		}
         protected override void OnModelCreating(ModelBuilder builder)
