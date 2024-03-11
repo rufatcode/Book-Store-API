@@ -3,6 +3,7 @@ using Book_Libirary_Api.Configuration;
 using Book_Libirary_Api.Interfaces;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 
 namespace Book_Libirary_Api.Services

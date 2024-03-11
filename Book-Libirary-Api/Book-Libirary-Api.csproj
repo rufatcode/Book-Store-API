@@ -33,41 +33,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="DAL\" />
-    <None Remove="Entities\" />
-    <None Remove="DTO\" />
-    <None Remove="Validator\" />
-    <None Remove="Configuration\" />
-    <None Remove="DTO\UserDto\" />
-    <None Remove="Validator\UserValidator\" />
-    <None Remove="AutoMapper\" />
     <None Remove="Controllers\" />
-    <None Remove="DTO\SliderDto\" />
-    <None Remove="Validator\SliderValidator\" />
-    <None Remove="Services\" />
-    <None Remove="Interfaces\" />
-    <None Remove="DTO\SettingDto\" />
-    <None Remove="Validator\SettingValidator\" />
-    <None Remove="DTO\AboutDto\" />
-    <None Remove="Validator\AboutValidator\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DAL\" />
-    <Folder Include="Entities\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Validator\" />
-    <Folder Include="Configuration\" />
-    <Folder Include="DTO\UserDto\" />
-    <Folder Include="Validator\UserValidator\" />
-    <Folder Include="AutoMapper\" />
     <Folder Include="Controllers\" />
-    <Folder Include="DTO\SliderDto\" />
-    <Folder Include="Validator\SliderValidator\" />
-    <Folder Include="Services\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="DTO\SettingDto\" />
-    <Folder Include="Validator\SettingValidator\" />
-    <Folder Include="DTO\AboutDto\" />
-    <Folder Include="Validator\AboutValidator\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Book-Libirary-Api.Busiess\Book-Libirary-Api.Busiess.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Book-Libirary-Api.Core\Book-Libirary-Api.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Book-Libirary-Api.Data\Book-Libirary-Api.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

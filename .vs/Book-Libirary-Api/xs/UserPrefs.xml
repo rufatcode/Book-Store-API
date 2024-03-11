@@ -1,34 +1,17 @@
 ﻿<Properties StartupConfiguration="{78B911EA-4E41-402B-8309-34E296EEF11B}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Book-Libirary-Api/Controllers/AboutController.cs">
-    <Files>
-      <File FileName="Book-Libirary-Api/Validator/AboutValidator/CreateAboutValidator.cs" Line="7" Column="36" />
-      <File FileName="Book-Libirary-Api/Validator/AboutValidator/UpdateAboutValidator.cs" Line="7" Column="69" />
-      <File FileName="Book-Libirary-Api/Controllers/AboutController.cs" Line="72" Column="49" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Book-Libirary-Api">
-            <Node name="Book-Libirary-Api">
-              <Node name="AutoMapper" expanded="True" />
-              <Node name="Configuration" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="AboutController.cs" selected="True" />
-              </Node>
-              <Node name="DTO" expanded="True">
-                <Node name="AboutDto" expanded="True" />
-              </Node>
-              <Node name="Entities" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="Validator" expanded="True">
-                <Node name="AboutValidator" expanded="True" />
-                <Node name="SettingValidator" expanded="True" />
+          <Node name="Book-Libirary-Api" expanded="True">
+            <Node name="Book-Libirary-Api.Data">
+              <Node name="Implimentations" expanded="True">
+                <Node name="SliderRepository.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -36,5 +19,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api.Busiess FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Book-Libirary-Api.Data FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -2,6 +2,9 @@
 using System.Text;
 using Book_Libirary_Api.AutoMapper;
 using Book_Libirary_Api.Configuration;
+using Book_Libirary_Api.Core.Repositories;
+using Book_Libirary_Api.Data;
+using Book_Libirary_Api.Data.Implimentations;
 using Book_Libirary_Api.DTO;
 using Book_Libirary_Api.Entities;
 using Book_Libirary_Api.Interfaces;
@@ -113,10 +116,12 @@ namespace Book_Libirary_Api
 
             });
 			services.AddAutoMapper(typeof(SliderProfile).Assembly);
+            services.AddHttpContextAccessor();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IFileService, FileService>();
             services.Configure<CloudinarySettings>(configuration.GetSection("Cloudinary"));
             services.AddScoped<IPhotoAccessor, PhotoAccessor>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 	}
 }
